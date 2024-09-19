@@ -47,13 +47,92 @@
             flex: 1 1 30%;
             margin: 10px;
             padding: 20px;
-            background: ;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
 
-</style>
-    <body>
-        <p>I love CODING!!!</p>
-    </body>
+        .skills .skill h3, .projects .project h3 {
+            margin-top: 0;
+            color: #333;
+        }
 
+        .projects .project img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
 
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
 
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Welcome to my professional portfolio. Here you can find my latest projects, skills, and contact information.</p>
+    </header>
+
+    <div class="container">
+
+        <section class="section about">
+            <h2>About Me</h2>
+            <p>I am an Information Technology Infrastructure Specialist with a passion for designing and maintaining reliable IT systems. With experience in server management, network optimization, and security, I strive to ensure seamless operations and continuous improvements.</p>
+        </section>
+
+        <section class="section skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>Server Management</h3>
+                <p>Expertise in configuring, maintaining, and optimizing servers for high performance and reliability.</p>
+            </div>
+            <div class="skill">
+                <h3>Network Optimization</h3>
+                <p>Skilled in network design, troubleshooting, and ensuring secure and efficient data flow.</p>
+            </div>
+            <div class="skill">
+                <h3>Security</h3>
+                <p>Proficient in implementing robust security measures to protect infrastructure and data.</p>
+            </div>
+        </section>
+
+        <section class="section projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Cloud Infrastructure Setup</h3>
+                <img src="project1.jpg" alt="Project 1">
+                <p>Designed and implemented a scalable cloud infrastructure for a growing tech company, improving performance and reducing costs.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Network Security Enhancement</h3>
+                <img src="project2.jpg" alt="Project 2">
+                <p>Led the initiative to enhance network security, resulting in a significant reduction in security incidents and improved compliance.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: Server Consolidation</h3>
+                <img src="project3.jpg" alt="Project 3">
+                <p>Successfully consolidated multiple servers into a more efficient architecture, reducing operational costs and improving manageability.</p>
+            </div>
+        </section>
+
+        <section class="section contact">
+            <h2>Contact</h2>
+            <p>If you'd like to discuss a project or just want to say hello, feel free to contact me at:</p>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
 </html>
